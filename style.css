@@ -1,7 +1,8 @@
 body {
-  color: #222;
-  font-family: sans-serif;
-  font-size: 16px;
+  text-align:center;
+  color: #FFFAF0;
+  font-family: georgia;
+  font-size: 18px;
 }
 
 header:before, nav:before, main:before, section:before, article:before, aside:before, footer:before {
@@ -11,7 +12,7 @@ header:before, nav:before, main:before, section:before, article:before, aside:be
 }
 
 header, nav, main, section, article, aside, footer {
-  border: 1px solid #222;
+  border: 1px solid #8B0000;
   padding: 1em;
 }
 
@@ -22,47 +23,65 @@ img {
 
 header:before {
   content: "<header>";
-  color: #ccc;
+  color: #483D8B;
 }
 
 header {
-  background-color: #eee;
+  background-color: #483D8B;
 }
 
 nav:before {
   content: "<nav>";
-  color: #bbb;
+  color: #FFE4C4;
 }
 
 nav {
-  background-color: #ddd;
+  background-color: #FFE4C4;
 }
 
 main:before {
   content: "<main>";
-  color: #aaa;
+  color: #6495ED;
 }
 
 main {
-  background-color: #ccc;
+  background-color: #6495ED;
 }
 
 section:before {
   content: "<section>";
-  color: #999;
+  color: #00008B;
 }
 
+img {
+  display: block;
+  margin-left: 250px;
+  margin-right: auto;
+  width: 100%;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 section {
-  background-color: #bbb;
+  background-color: #00008B;
 }
 
 article:before {
   content: "<article>";
-  color: #888;
+  color: #9932CC;
 }
 
 article {
-  background-color: #aaa;
+  background-color: #9932CC;
 }
 
 aside:before {
