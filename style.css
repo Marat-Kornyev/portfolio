@@ -65,13 +65,14 @@ img {
 }
 
 .column {
-  align-items: center;
+  align-items: flex-end;
   float: left;
-  width: 49.00%;
-  padding: 6px;
+  width: 49%;
+  padding: 5px;
 }
 
 .row::after {
+  align-items: center;
   content: "";
   clear: both;
   display: table;
