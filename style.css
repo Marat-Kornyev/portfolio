@@ -44,6 +44,10 @@ main:before {
   color: #6495ED;
 }
 
+th {
+  text-align: center;
+}
+
 main {
   background-color: #6495ED;
 }
@@ -55,15 +59,16 @@ section:before {
 
 img {
   display: block;
-  margin-left: 250px;
+  margin-left: auto;
   margin-right: auto;
   width: 100%;
 }
 
 .column {
+  align-items: center;
   float: left;
-  width: 33.33%;
-  padding: 5px;
+  width: 49.00%;
+  padding: 6px;
 }
 
 .row::after {
